@@ -37,7 +37,8 @@ public class Login {
         Thread.sleep(5000);
         Actions actions1 = new Actions(driver);
         actions1.moveToElement(signOutTab).click().perform();
-
+        System.out.println("Successfully Logged Out");
     }
+
 
 }

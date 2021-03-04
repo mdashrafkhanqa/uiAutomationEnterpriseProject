@@ -8,6 +8,17 @@
             <class name="loginTest.ValidLoginTest">
                 <methods>
                     <include name="verifyValidSignIn"/>
+                    <include name="verifyReserveVehicle"/>
+                </methods>
+            </class>
+            <class name="catalogPage.CatalogPageTest">
+                <methods>
+                    <include name="verifyCatalogRentTab"/>
+                    <include name="verifyCatalogBuyTab"/>
+                    <include name="verifyCatalogShareTab"/>
+                    <include name="verifyCatalogLearnTab"/>
+                    <include name="verifyCatalogLocationsTab"/>
+                    <include name="verifyCatalogForBusinessTab"/>
                 </methods>
             </class>
         </classes>
